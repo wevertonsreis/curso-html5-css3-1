@@ -2,6 +2,7 @@ body {
     font-family: "Crimson Text", "Times New Roman", serif;
     background-color: #F2FFFC;
     font-size: 120%;
+    line-height: 1.5;
 }
 
 h1, h2 {
@@ -15,7 +16,9 @@ p {
 main h1 {
     color: #FFF;
     text-align: center;
-    background-color: #851944;    
+    background-color: #851944;
+    padding: 25px;
+    border-bottom: 10px solid #000000;
 }
 
 main a {
@@ -24,11 +27,15 @@ main a {
 
 blockquote {
     background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    box-sizing: border-box;
 }
 
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    text-align: center;
 }
 
 aside a {
@@ -37,8 +44,21 @@ aside a {
     text-decoration: none;
 }
 
+aside ul {
+    list-style-type: none;
+}
+
 footer {
     background-color: #000000;
     color: #F2FFFC;
 }
 
+blockquote, aside, footer {
+    padding: 20px;
+}
+
+main div {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
