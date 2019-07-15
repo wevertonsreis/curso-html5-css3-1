@@ -43,34 +43,26 @@ blockquote {
     margin: 20px 40px 20px 40px;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
+    padding: 20px;
 }
 
-aside a {
+.navegacao-site a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
     text-decoration: none;
 }
 
-aside ul {
+.navegacao-site ul {
     list-style-type: none;
 }
 
-aside h1 {
+.navegacao-site h1 {
     font-size: 30px;
     margin-bottom: 25px;
-}
-
-aside li {
-    display: inline-block;
-}
-
-footer {
-    background-color: #000000;
-    color: #F2FFFC;
 }
 
 blockquote, aside, footer {
@@ -90,4 +82,29 @@ strong {
 
 em {
     font-style: italic;
+}
+
+.icones-redes-sociais li {
+    display: inline-block; /* deixa os elementos na mesma linha */
+}
+
+#rodape-pagina{
+    background-color: #000000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
+.postagem {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.postagem .leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
 }
