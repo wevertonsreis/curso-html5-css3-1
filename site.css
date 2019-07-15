@@ -9,8 +9,17 @@ h1, h2 {
     font-family:  "Open Sans Condensed", "Arial", sans-serif;
 }
 
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
 p {
     text-align: justify;
+    margin: 20px 0;
 }
 
 main h1 {
@@ -19,6 +28,7 @@ main h1 {
     background-color: #851944;
     padding: 25px;
     border-bottom: 10px solid #000000;
+    font-size: 60px;
 }
 
 main a {
@@ -30,6 +40,7 @@ blockquote {
     border: 10px solid #C2CCCA;
     width: 250px;
     box-sizing: border-box;
+    margin: 20px 40px 20px 40px;
 }
 
 aside {
@@ -48,6 +59,11 @@ aside ul {
     list-style-type: none;
 }
 
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
 footer {
     background-color: #000000;
     color: #F2FFFC;
@@ -61,4 +77,13 @@ main div {
     width: 720px;
     margin-left: auto;
     margin-right: auto;
+    padding: 30px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
 }
