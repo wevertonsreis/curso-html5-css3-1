@@ -26,6 +26,7 @@ p {
 main {
     float: left;
     width: 85%;
+    padding-bottom: 80px;
 }
 
 main h1 {
@@ -57,6 +58,10 @@ blockquote {
     float: right;
     width: 15%;
     box-sizing: border-box; /* utilizado para considerar o padding no calculo de largura*/
+    position: relative;
+    top: 310px;
+    
+    
 }
 
 .navegacao-site a {
@@ -122,6 +127,10 @@ em {
     color: #F2FFFC;
     padding: 20px;
     clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .postagem {
@@ -157,8 +166,9 @@ cite {
 }
 
 .foto {
-    float: right;
-    width: 15%;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .foto, .navegacao-site {
