@@ -1,0 +1,22 @@
+.postagem {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.postagem .leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}

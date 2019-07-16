@@ -1,0 +1,140 @@
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1, h2 {
+    font-family:  "Open Sans Condensed", "Arial", sans-serif;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+main {
+    float: left;
+    width: 85%;
+    padding-bottom: 80px;
+}
+
+main h1 {
+    color: #FFF;
+    text-align: center;
+    background-color: #851944;
+    padding: 25px;
+    border-bottom: 10px solid #000000;
+    font-size: 60px;
+}
+
+main a {
+    color: #851944;
+}
+
+.navegacao-site {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    padding: 20px;
+    float: right;
+    width: 15%;
+    box-sizing: border-box; /* utilizado para considerar o padding no calculo de largura*/
+    position: relative;
+    top: 310px;
+}
+
+.navegacao-site a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.navegacao-site ul {
+    list-style-type: none;
+}
+
+.navegacao-site h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+aside, footer {
+    padding: 20px;
+}
+
+main div {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.icones-redes-sociais li {
+    display: inline-block; /* deixa os elementos na mesma linha */
+}
+
+.icones-redes-sociais a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-indent: -99999px; /* tecnica chamada image replacement */
+}
+
+.github {
+    background-image: url(../img/github.png);
+}
+
+.twitter {
+    background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../img/linkedin.png);
+}
+
+#rodape-pagina{
+    background-color: #000000;
+    color: #F2FFFC;
+    padding: 20px;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.subtitulo-texto {
+    clear: both;
+}
+
+.foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.foto, .navegacao-site {
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
+}
