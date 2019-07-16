@@ -23,6 +23,11 @@ p {
     margin: 20px 0;
 }
 
+main {
+    float: left;
+    width: 85%;
+}
+
 main h1 {
     color: #FFF;
     text-align: center;
@@ -49,6 +54,9 @@ blockquote {
     color: #F2FFFC;
     text-align: center;
     padding: 20px;
+    float: right;
+    width: 15%;
+    box-sizing: border-box; /* utilizado para considerar o padding no calculo de largura*/
 }
 
 .navegacao-site a {
@@ -113,6 +121,7 @@ em {
     background-color: #000000;
     color: #F2FFFC;
     padding: 20px;
+    clear: both;
 }
 
 .postagem {
@@ -128,4 +137,32 @@ em {
     font-size: 24px;
     text-align: center;
     background-color: #E6E7E8;
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+}
+
+.subtitulo-texto {
+    clear: both;
+}
+
+.foto {
+    float: right;
+    width: 15%;
+}
+
+.foto, .navegacao-site {
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
 }
